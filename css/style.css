@@ -1,19 +1,51 @@
-html{
+/* FONT-FACE */
+@font-face {
+    font-family: 'Rubik';
+    src: url('../font/Rubik-Regular.woff2') format('woff2'),
+        url('../font/Rubik-Regular.wolff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../font/Rubik-Bold.woff2') format('woff2'),
+        url('../font/Rubik-Bold.wolff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../font/Rubik-Medium.woff2') format('woff2'),
+        url('../font/Rubik-Medium.wolff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+html {
     box-sizing: border-box;
     height: 100%;
     scroll-behavior: smooth;
 }
+
 *,
 *::before,
-*::after{
+*::after {
     box-sizing: border-box;
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
     height: 100%;
 }
-.container{
+
+.container {
     width: 100%;
     max-width: 1140px;
     padding-left: 20px;
@@ -21,6 +53,16 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
-.main-content{
+
+.main-content {
     flex-grow: 1px;
+}
+
+/* HEADER */
+.header {}
+
+.reaper-header {
+    padding-top: 41px;
+    padding-bottom: 41px;
+    background: #F6F6F6;
 }
