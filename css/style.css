@@ -73,6 +73,12 @@ padding-bottom: 30px;
     padding-bottom: 8px;
     padding-left: 6px;
     padding-right: 6px;
+    display: inline-block;
+    border-radius: 7px;
+    background-color: #FFF;
+    margin-right: 41px;
+}
+.header-logo{
     color: #7296EE;
 font-family: Rubik;
 font-size: 24px;
