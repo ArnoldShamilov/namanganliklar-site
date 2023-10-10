@@ -59,10 +59,140 @@ body {
 }
 
 /* HEADER */
-.header {}
-
+.header{
+padding-bottom: 30px;
+}
 .reaper-header {
+    display: flex;
     padding-top: 41px;
     padding-bottom: 41px;
     background: #F6F6F6;
+}
+.header-logo{
+    padding-top: 9px;
+    padding-bottom: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #7296EE;
+font-family: Rubik;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-radius: 7px;
+background-color: #FFF;
+margin-right: 41px;
+}
+.span{
+    display: flex;
+    color: #2959CE;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.rubl-course{
+    margin: 0;
+    color: #555;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.header-right-div{
+    display: flex;
+    align-items: center;
+}
+.rubl-course-advertising{
+    display: flex;
+    margin-right: 25px;
+}
+.rubl-course-advertising2{
+    display: flex;
+    margin-right: 249px;
+}
+.series-div{
+    display: flex;
+    align-items: center;
+}
+.smal-wrapper{
+    display: flex;
+}
+.search{
+    padding-top:15px ;
+    padding-bottom:13px ;
+    padding-left:41px ;
+    padding-right: 20px;
+    border-radius: 60px;
+margin-right: 25px;
+border: 0;
+display: flex;
+content: "";
+background-image: url(../img/header-icon.svg);
+background-repeat: no-repeat;
+background-position: left 15px center;
+}
+.togler-div{
+    display: flex;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 13px;
+border-radius: 39px;
+margin-right: 25px;
+background-color: #DCE6FF;
+}
+.togler-uz{
+    padding-top: 8px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    color: #000;
+font-family: Rubik;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color:#FFF;
+border-radius:20px;
+}
+.togler-ru{
+    padding-top: 8px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    display: inline-block;
+    color: #A6A6A6;
+    font-family: Rubik;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    b
+}
+.section-span{
+    margin-right: 25px;
+}
+
+.header-button{
+    display: flex;
+width: 89px;
+padding: 13px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+background: #7296EC;
+color: #FFF;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
 }
