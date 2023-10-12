@@ -66,9 +66,10 @@ padding-bottom: 30px;
     display: flex;
     padding-top: 41px;
     padding-bottom: 41px;
+    margin-bottom: 30px;
     background: #F6F6F6;
 }
-.header-logo{
+.header-logo-link{
     padding-top: 9px;
     padding-bottom: 8px;
     padding-left: 6px;
@@ -85,9 +86,6 @@ font-size: 24px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-border-radius: 7px;
-background-color: #FFF;
-margin-right: 41px;
 }
 .span{
     display: flex;
@@ -201,4 +199,17 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 text-decoration: none;
+}
+
+.banner-link{
+margin-top: 0px;
+display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-img{
+    border-radius: 8px;
+    width: 1200px;
+height: 128px;  
 }
