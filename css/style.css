@@ -328,3 +328,47 @@ height: 128px;
     font-weight: 400;
     line-height: normal;
 }
+/* AD-BAKER */
+.ad-button-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}   
+.ad-baker{
+    width: 1050px;
+height: 100px;
+display: flex;
+    content: "";
+    background-image: url(../img/button-bacgraund.png); 
+    background-repeat: repeat;
+}
+.ad-text{
+    margin-right: 397px;
+    margin-left: 29px;
+    color: #000;
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+}
+.ad-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 71px;
+    border-radius: 10px;
+background: #F78B3B;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #FFF;
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
