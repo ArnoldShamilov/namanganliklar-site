@@ -394,6 +394,9 @@ line-height: normal;
 }
 
 /* NEWS DEPARTMENT */
+.news-department{
+    padding-bottom: 100px;
+}
 .section-child-div{
 display: flex;
 }
