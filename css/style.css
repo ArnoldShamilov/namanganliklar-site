@@ -377,7 +377,6 @@ line-height: 26px;
 }
 .ad-button{
     display:flex;
-    justify-content: center;
     align-items: center;
     text-decoration: none;
     margin-right: 71px;
@@ -478,6 +477,8 @@ line-height: normal;
 }
 .news-department-button{
     display: inline-block;
+    align-items: center;
+    justify-content: space-between;
     padding-top: 17px;
     padding-left: 343px;
     padding-bottom: 17px;
