@@ -298,6 +298,7 @@ body {
     font-weight: 500;
     line-height: 26px;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
 .news-child-text {
